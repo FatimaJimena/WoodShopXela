@@ -1,0 +1,292 @@
+
+<HTML>
+<HEAD>
+
+
+
+  <TITLE>Salones con muebles obscuros </TITLE>
+
+
+
+  <META NAME="description" content="Salones con muebles obscuros ">
+  <META NAME="keywords" CONTENT="">
+  <META NAME="generator" content="eComm PRO v2.08">
+  <META NAME="resource-type" content="document">
+  <META NAME="distribution" content="Global">
+  <META NAME="robots" content="All">
+  <META NAME="copyright" content="Copyright ©2001 WoodShop">
+
+
+
+  <style type="text/css">A:hover{color:#FF0000;}
+.m {font-size: 8pt; font-family:verdana,helvetica,arial; font-weight:normal;}
+.b {font-size: 8pt; font-family:verdana,helvetica,arial; font-weight:bold;}
+  </style>
+
+  </HEAD>
+
+
+
+  
+
+<SCRIPT> 
+
+var mode = 1;
+
+if (mode == 0){
+    if (name != "shopmain"){
+    document.open();
+    document.writeln('<FRAMESET COLS="*,208" BORDER=0 FRAMEBORDER=NO ' +
+'FRAMESPACING=0>' +
+'<FRAME SRC="' + location + '?x" NAME="shopmain">' +
+'<FRAMESET ROWS="*,130">' +
+'<FRAME SRC="trolley.html" NAME="shoptrolley" MARGINWIDTH=8' +
+' MARGINHEIGHT=5>' +
+'<FRAME SRC="register.html' + location.search +
+'" NAME="shopregister" SCROLLING=NO>' +
+'</FRAMESET>' + '</FRAMESET>' + '<NOFRAMES>');
+    document.close();
+  }
+}
+  
+function addItem(){
+   if (top.location == self.location){     
+       var infoString;
+       infoString = '?add&' + arguments[0] + '	' + arguments[1]+':'+arguments[9]+':'+arguments[10] + '	' + arguments[2] + '	' + arguments[3] + '	' + arguments[4] + '	' + arguments[5] + '	' + arguments[6] + '	' + arguments[7] + '	' + arguments[8]+'	'+arguments[9]+'	'+arguments[10]; 
+       document.open(); 
+       document.writeln('<' + 'SCRIPT' + '>'); 
+       document.writeln('function info(){ return "' + infoString + '"; }');
+       document.writeln('<' + '/' + 'SCRIPT' + '>'); 
+       document.writeln('<FRAMESET COLS="*,208" BORDER=0 FRAMEBORDER=NO ' +
+'FRAMESPACING=0>' +
+'<FRAME SRC="' + location + '?x'+ '" NAME="shopmain">' +
+'<FRAMESET ROWS="*,130">' +
+'<FRAME SRC="trolley.html" NAME="shoptrolley" MARGINWIDTH=8' +
+' MARGINHEIGHT=5>' +
+'<FRAME SRC="register.html' + location.search +
+'" NAME="shopregister" SCROLLING=NO>' +
+'</FRAMESET>' + '</FRAMESET>' + '<NOFRAMES>');
+      document.close();       
+   }       
+   else
+      parent.shopregister.addItem(arguments[0],arguments[1]+':'+arguments[9]+':'+arguments[10],arguments[2],arguments[3],arguments[4],parseInt(arguments[5]),arguments[6],arguments[7],arguments[8],arguments[9],arguments[10]);
+}
+
+function removeItem(code){
+   if (top.location != self.location){           
+       parent.shopregister.removeItem(code);       
+       if (mode == 1 && !parent.shopregister.inTrolley()){
+          top.location = self.location;
+       } 
+   }
+}
+</SCRIPT>
+
+
+
+
+
+
+  <BODY text=BLACK bgcolor=#FFECD5 link=#FFB0A8 vlink=#8E82FF alink=#FF0000 topmargin=0 leftmargin=0 marginheight=0 marginwidth=0>
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+
+<tr VALIGN=TOP><td width=14></td>
+<td WIDTH=20%>
+
+
+<center><table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="180">
+<td ALIGN=LEFT VALIGN=TOP BACKGROUND="j1_homeback.png">
+<center><img SRC="j1_hometrsv.png" BORDER=0 align=TEXTTOP></center>
+<img SRC="j1_hometrsh.png" BORDER=0 align=TEXTTOP><a href="index.html"><img SRC="j1_home.png" BORDER=0 align=TEXTTOP></a>
+<center><img SRC="j1_hometrsb.png" BORDER=0 align=TEXTTOP></center></td></tr>
+</table></center>
+
+
+
+</td><td width=14></td>
+<td WIDTH=100% ALIGN=CENTER BACKGROUND="">
+
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<tr ALIGN=CENTER VALIGN=CENTER>
+<td ALIGN=LEFT WIDTH="55"><img SRC="j1_tleft.png" BORDER=0 align=TEXTTOP></td>
+
+<td ALIGN=CENTER VALIGN=TOP BACKGROUND="j1_tmid.png" WIDTH=100%>
+
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<tr>
+<td ALIGN=LEFT>
+<img SRC="j1_ttransp.png" BORDER=0 align=TEXTTOP><br>
+
+<a href="42.htm"><img SRC="j1_back.png" ALT="Back" BORDER=0 align=TEXTTOP></a>&nbsp;&nbsp;&nbsp; 
+</td>
+<td ALIGN=RIGHT >
+<img SRC="j1_ttransp.png" BORDER=0 align=TEXTTOP><br>
+
+
+</td></tr></table>
+
+
+
+</td>
+<td ALIGN=RIGHT WIDTH="53" VALIGN=TOP><img SRC="j1_tright.png" BORDER=0 align=TEXTTOP></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<tr ALIGN=CENTER VALIGN=CENTER>
+<td ALIGN=LEFT WIDTH="55"><img SRC="j1_tl-b.png" BORDER=0 align=TEXTTOP></td>
+
+<td ALIGN=CENTER VALIGN=TOP BACKGROUND="j1_tbottom.png" WIDTH=100%><img SRC="j1_tbottom.png" BORDER=0 ></td>
+
+<td ALIGN=RIGHT WIDTH="53" VALIGN=TOP><img SRC="j1_tr-b.png" BORDER=0 align=TEXTTOP></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<tr VALIGN=TOP  ><td width=14><img SRC="j1_bleft.png" BORDER=0 align=TEXTTOP></td>
+<td ALIGN=LEFT WIDTH=20% BACKGROUND="j1_bmid.png"><img SRC="j1_bmidcon.png" BORDER=0 align=TEXTTOP></td>
+<td width=14 BACKGROUND="j1_bmid.png"><img SRC="j1_transp.png" BORDER=0 align=TEXTTOP></td>
+<td WIDTH=100% ALIGN=RIGHT BACKGROUND="j1_bmid.png"><img SRC="j1_bright.png" BORDER=0 align=TEXTTOP></td></tr>
+</table>
+
+
+
+</td></tr>
+
+<tr VALIGN=TOP  ><td width=14 BACKGROUND="j1_left.png"><img SRC="j1_l-t.png" BORDER=0 align=TEXTTOP></td>
+
+<td WIDTH=20% BACKGROUND="j1_mid.png">
+
+
+<center>
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<tr ALIGN=CENTER VALIGN=CENTER>
+<td ALIGN=CENTER VALIGN=TOP WIDTH=100% BACKGROUND="j1_top.png"><img SRC="j1_top.png" BORDER=0 ></td>
+</tr>
+
+<tr ALIGN=CENTER VALIGN=CENTER>
+<td ALIGN=CENTER VALIGN=TOP BACKGROUND="j1_mid.png" WIDTH=100%>
+
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0  WIDTH=98%>
+<tr><td>
+
+
+  <table width=100%><tr><td valign=top width=5%><img src="a_2.png"></td><td class=m><a href="27.htm">Muebles para terraza</a></td></tr>
+<tr><td valign=top width=5%><img src="j1p1.png"></td><td class=m><a href="36.htm">Muebles de terraza madera</a></td></tr>
+<tr><td valign=top width=5%><img src="j1p1.png"></td><td class=m><a href="37.htm">Mueble de terraza de plástico p</a></td></tr>
+<tr><td valign=top width=5%><img src="j1p1.png"></td><td class=m><a href="38.htm">Mesita de terraza </a></td></tr>
+<tr><td valign=top width=5%><img src="j1p1.png"></td><td class=m><a href="39.htm">Sillón de terraza</a></td></tr>
+<tr><td valign=top width=5%><img src="j1p1.png"></td><td class=m><a href="40.htm">Sofá de terraza</a></td></tr>
+<tr><td valign=top width=5%><img src="j1p1.png"></td><td class=m><a href="41.htm">Silla Hamp</a></td></tr>
+<tr><td valign=top width=5%><img src="j1p1.png"></td><td class=m><a href="42.htm">Tumbona Atlántico</a></td></tr>
+<tr><td valign=top width=5%><img src="j1o1.png"></td><td class=b><a href="43.htm">Salones con muebles obscuros </a><table class=mb width=100%><tr><td valign=top width=5%><img src="j1p1.png"></td><td class=m><a href="44.htm">Sofá negro </a></td></tr>
+<tr><td valign=top width=5%><img src="j1p1.png"></td><td class=m><a href="45.htm">Sillas de Harí de Ondarreta</a></td></tr>
+<tr><td valign=top width=5%><img src="j1p1.png"></td><td class=m><a href="46.htm">Aparador Moss</a></td></tr>
+<tr><td valign=top width=5%><img src="j1p1.png"></td><td class=m><a href="47.htm">Mesa de centro Tetris</a></td></tr>
+<tr><td valign=top width=5%><img src="j1c1.png"></td><td class=m><a href="48.htm"></a></td></tr>
+</table></td></tr>
+<tr><td><br></td><td><br></td></tr><tr><tr><td valign=top width=5%><img src="a_2.png"></td><td class=m><a href="http://www.vendercom.com/directory.htm" target=_blank>Other Stores</a></td></tr>
+</table>
+
+
+
+
+<br>
+<table cellspacing=6><tr><td>
+<FORM METHOD="GET" ACTION="http://ecomm.vendercom.com/search">
+<table><tr><td class=b>
+Search:<br>
+<INPUT name="id" TYPE=HIDDEN value="V21000-00">
+<INPUT name="query" TYPE=TEXT SIZE=15 ALIGN=left>
+</td><td valign=bottom><center><INPUT TYPE="SUBMIT" VALUE="Go">
+</td></tr></table>
+</td></tr></table>
+</FORM>
+
+
+
+
+
+
+<p><img SRC="j1_transbar.png" BORDER=0 align=TEXTTOP>
+
+</td></tr>
+</table>
+
+
+</td>
+</tr>
+</table>
+</center>
+
+
+</td><td width=14 BACKGROUND="j1_right.png"><img SRC="j1_r-t.png" BORDER=0 align=TEXTTOP></td>
+
+
+<td WIDTH=100% VALIGN=TOP ALIGN=CENTER >
+
+
+
+
+<center>
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=90%>
+<tr VALIGN=CENTER>
+
+<td VALIGN=TOP WIDTH=0>
+
+<CENTER>
+<b><font face="Verdana, Arial" color="#666666" size=+2></font></b>
+<br><br>
+
+
+<br>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 bgcolor="#660000">
+<tr ALIGN=LEFT VALIGN=TOP>
+<td ALIGN=CENTER >
+
+<table border=1 cellspacing=0 CELLPADDING=0 bordercolor="#660000" bgcolor=#FFECD5>
+<tr><td>
+</a>
+</td></tr>
+</table>
+</td></tr>
+</table>
+
+  <TABLE>
+  <tr><td valign=top></td><td></td></tr>
+  <tr><td valign=top></td><td></td></tr>
+  <tr><td valign=top></td><td></td></tr>
+  <tr><td valign=top></td><td></td></tr>
+  <tr><td valign=top></td><td></td></tr>
+  <tr><td valign=top></td><td></td></tr>
+  </TABLE>
+<br></CENTER>
+
+</td></tr></table>
+
+<br>
+
+
+</td></tr>
+
+<tr VALIGN=TOP  ><td width=14><img SRC="j1_l-b.png" BORDER=0 align=TEXTTOP></td>
+<td ALIGN=LEFT WIDTH=20% BACKGROUND="j1_bottom.png"><img SRC="j1_bottom.png" BORDER=0 align=TEXTTOP></td>
+<td width=14 ><img SRC="j1_r-b.png" BORDER=0 align=TEXTTOP></td>
+<td WIDTH=100% ALIGN=RIGHT  ></td></tr>
+
+<tr VALIGN=TOP  ><td width=14><img SRC="j1_bleft.png" BORDER=0 align=TEXTTOP></td>
+<td ALIGN=LEFT WIDTH=20% BACKGROUND="j1_bmid.png"><img SRC="j1_bmidcon.png" BORDER=0 align=TEXTTOP></td>
+<td width=14 BACKGROUND="j1_bmid.png"><img SRC="j1_transp.png" BORDER=0 align=TEXTTOP></td>
+<td WIDTH=100% ALIGN=RIGHT BACKGROUND="j1_bmid.png"><img SRC="j1_bright.png" BORDER=0 align=TEXTTOP></td></tr>
+
+</table>
+
+
+</body>
+</html>

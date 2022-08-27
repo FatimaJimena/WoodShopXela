@@ -1,0 +1,37 @@
+; Ecomm Index File
+; v2.08
+VERSION=2.08.002
+TITLE=WoodShop
+CURRENCY=$
+COUNTRY=Guatemala
+#1|'Muebles de terraza de madera '|'5600'|'70.htm'|'muebles de terraza de madera.jpg'|||
+#1|'Muebles de terraza plástico polipropileno'|'3500'|'71.htm'|'mueble de terraza polipropileno.jpg'|||
+#1|'Mestita de terraza'|'500'|'72.htm'|'mesita de terraza.jpg'|||
+#1|'Sillón de terraza '|'450'|'73.htm'|'sillon de terraza.jpg'|||
+#1|'Sofá de terraza'|'3800'|'74.htm'|'sofá de terraza.jpg'|||
+#1|'Silla Hamp'|'1900'|'75.htm'|'silla hamp.jpg'|||
+#1|'Tumbona Atlántico '|'1600'|'76.htm'|'tumbona atlántico.jpg'|||
+#0|'Muebles de terraza'||'61.htm'|'terraza.jpg'|||
+#1|'Sillas Harí de Ondarreta '|'3500'|'77.htm'|'silla de onda.jpg'|||
+#1|'Sofá negro '|'7500'|'78.htm'|'sofá negro.jpg'|||
+#1|'Mesa de centro Tetris '|'4900'|'79.htm'|'mesa de centro tetris.jpg'|||
+#1|'Aparador Moss'|'5500'|'80.htm'|'aparador moss.jpg'|||
+#1|'Consola skyline '||'81.htm'|'consola skyline.jpg'|||
+#0|'Muebles obscuros '||'65.htm'|'mueble oscuro.jpg'|||
+#1|'Salón Devina Nais '|'9000'|'82.htm'|'devina nais.jpg'|||
+#1|'Salón MX 15'|'6700'|'83.htm'|'salón mx 15.jpg'|||
+#1|'Salón IOS 007 Loyra'|'7500'|'84.htm'|'salón ios 007 loyra.jpg'|||
+#1|'Mueble de TV Aura 2'|'6500'|'85.htm'|'mueble de tv aura 2.jpg'|||
+#0|'Salones clásico, moderno, contemporáneo '||'66.htm'|'muebles clásicos.jpg'|||
+#1|'Zona de estudio Infinity 21'|'9600'|'86.htm'|'zona de estudio infinity 21.jpg'|||
+#1|'Sofá cama Rhin '|'5500'|'87.htm'|'sofá cama rhin.jpg'|||
+#1|'Mesa Extendible Aura '|'2900'|'88.htm'|'mesa extendible.jpg'|||
+#1|'Consola ext. Voila'|'5500'|'89.htm'|'consola ext. voila.jpg'|||
+#0|'Muebles funcionales para casas pequeñas '||'68.htm'|'multifuncionales.jpg'|||
+#1|'Mesas extendibles tipo mariposa'|'3700'|'90.htm'|'mesas extendibles tipo mariposa.jpg'|||
+#1|'Mesa extendible Sue '|'3500'|'91.htm'|'mesa extendible.jpg'|||
+#1|'Mesa ext. Loki '|'3200'|'92.htm'|'mesa ext. loki.jpg'|||
+#0|'Mesas de comedor extensibles '||'69.htm'|'extendibles.jpg'|||
+#0|'WoodShop'||'index.html'|'woodshop.jpeg'|||
+#4|'SOBRE NOSOTROS '||'about.html'||||
+#4|'CONTÁCTANOS '||'contact.html'|'redes.jpeg'|||
